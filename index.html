@@ -1,9 +1,220 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        Hello
-    </head>
-    <body>
-        <!-- the content goes here -->
-    </body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sounds Beyond Earth | Art-Tech Installation</title>
+    <meta
+      name="description"
+      content="Sounds Beyond Earth is an offline-first art-tech installation where visitors transform voice, songs, and scientific signals into situated extraterrestrial listening experiences."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Sounds Beyond Earth" />
+    <meta
+      property="og:description"
+      content="Tune in to other worlds&mdash;from orbit to ground. Explore Voice, Songs, and Signals in an offline-first web installation."
+    />
+    <meta property="og:url" content="https://example.com/sounds-beyond-earth/" />
+    <meta property="og:image" content="assets/img/hero.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href="https://example.com/sounds-beyond-earth/" />
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#home">Sounds Beyond Earth</a>
+        <nav aria-label="Primary">
+          <a href="#concept">Concept</a>
+          <a href="#how-it-works">How it works</a>
+          <a href="#tech-exhibit">Tech + exhibit</a>
+          <a href="#media">Media</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="container hero-content">
+        <p class="eyebrow">S&oacute;nar+D Art-Tech Installation</p>
+        <h1 id="hero-title">Sounds Beyond Earth</h1>
+        <p class="hook">"Tune in to other worlds&mdash;from orbit to ground."</p>
+        <div class="hero-actions">
+          <a
+            id="downloadDossierBtn"
+            class="btn btn-primary"
+            href="assets/docs/Sounds_Beyond_Earth_Dossier.pdf"
+            download
+          >
+            Download Dossier
+          </a>
+          <a class="btn btn-secondary" href="#contact">Contact</a>
+        </div>
+        <p id="heroAssetNote" class="asset-note" hidden>Add assets/img/hero.jpg</p>
+        <p id="dossierAssetNote" class="asset-note" hidden>
+          Add assets/docs/Sounds_Beyond_Earth_Dossier.pdf
+        </p>
+      </div>
+    </section>
+
+    <main id="main-content">
+      <section id="concept" class="section container" aria-labelledby="concept-title">
+        <h2 id="concept-title">Concept</h2>
+        <p>
+          Sounds Beyond Earth (SBE) is an audiovisual installation that lets visitors tune in to
+          other worlds from the cockpit of a fictional spacecraft to the planet's ground. Select
+          a celestial body and the interface jumps to it, allowing its vision from orbit or from
+          its ground. Three channels open: Voice (press to speak and hear your words returned
+          through realistic atmosphere + helmet/habitat emulation), Songs (choose a local track
+          and reshape it into alien acoustics), and Signals (curated electromagnetic/plasma-wave
+          recordings translated into audibility with a dial and live spectrum). SBE treats
+          "astro sound" as mediation, not illusion: in space there is no sound; what we hear is
+          what sensors, models and instruments allow us to hear. Built as an offline-first web
+          installation (real-time 3D + WebAudio), it runs on a single screen with closed-back
+          headphones and supports quick, repeatable interactions while rewarding deeper listening
+          for both individual and shared public encounters.
+        </p>
+      </section>
+
+      <section id="how-it-works" class="section container" aria-labelledby="how-title">
+        <h2 id="how-title">How It Works</h2>
+        <div class="card-grid">
+          <article class="card" aria-label="Voice mode">
+            <h3>VOICE</h3>
+            <p>
+              Press-to-speak listening loop. Your voice is remapped with atmospheric models and
+              helmet or habitat emulation for each selected world.
+            </p>
+          </article>
+          <article class="card" aria-label="Songs mode">
+            <h3>SONGS</h3>
+            <p>
+              Load a local track and shift timbre, diffusion, and resonances to hear how familiar
+              music mutates under extraterrestrial acoustic constraints.
+            </p>
+          </article>
+          <article class="card" aria-label="Signals mode">
+            <h3>SIGNALS</h3>
+            <p>
+              Explore curated electromagnetic and plasma-wave recordings translated into audibility
+              with a tuning dial and live spectrum feedback.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="tech-exhibit" class="section container" aria-labelledby="tech-title">
+        <h2 id="tech-title">Tech + Exhibit</h2>
+        <div class="tech-panel">
+          <p>
+            Designed for focused, headphones-only listening, SBE runs as an offline-first web
+            installation combining real-time 3D rendering and WebAudio processing. The setup is
+            optimized for high-throughput public exhibitions while preserving depth for longer
+            sessions.
+          </p>
+          <ul class="spec-list">
+            <li><strong>Listening mode:</strong> Headphones only (closed-back recommended).</li>
+            <li><strong>Runtime:</strong> Offline-first web install (real-time 3D + WebAudio).</li>
+            <li>
+              <strong>Footprint:</strong> Approx. 2.5m x 2m area with one screen and one listener
+              position.
+            </li>
+            <li>
+              <strong>Required equipment:</strong> 1 computer, 1 display/projector, 1 pair of
+              closed-back headphones, stable power, optional operator station.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="media" class="section container" aria-labelledby="media-title">
+        <h2 id="media-title">Media</h2>
+        <div class="media-grid">
+          <figure class="media-item" data-placeholder="Add assets/img/gallery1.jpg">
+            <img
+              src="assets/img/gallery1.jpg"
+              alt="Planetary terrain visualization from a listener viewpoint."
+              loading="lazy"
+            />
+            <figcaption>Ground-layer listening interface preview.</figcaption>
+          </figure>
+
+          <figure class="media-item" data-placeholder="Add assets/img/gallery2.jpg">
+            <img
+              src="assets/img/gallery2.jpg"
+              alt="Orbit view visualization used by the installation console."
+              loading="lazy"
+            />
+            <figcaption>Orbital navigation scene with telemetry overlays.</figcaption>
+          </figure>
+
+          <figure class="media-item" data-placeholder="Add assets/img/hero.jpg">
+            <img
+              src="assets/img/hero.jpg"
+              alt="Dark, instrument-like control panel with celestial backdrop."
+              loading="lazy"
+            />
+            <figcaption>Space-console visual language reference.</figcaption>
+          </figure>
+
+          <aside class="video-placeholder" aria-label="Video placeholder">
+            <h3>Video coming soon</h3>
+            <p>
+              A short walkthrough will be published soon. Until then, the dossier and still images
+              provide the current exhibition preview.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section id="credits" class="section container" aria-labelledby="credits-title">
+        <h2 id="credits-title">Credits &amp; Licensing Note</h2>
+        <p>
+          Visual and scientific source material is integrated for educational and artistic
+          mediation. NASA/ESA material credited where required; no endorsement implied.
+        </p>
+      </section>
+
+      <section id="contact" class="section container" aria-labelledby="contact-title">
+        <h2 id="contact-title">Contact</h2>
+        <p>
+          Email:
+          <a href="mailto:hello@soundsbeyondearth.org">hello@soundsbeyondearth.org</a>
+        </p>
+        <ul class="social-list" aria-label="Social links">
+          <li><a href="https://instagram.com/soundsbeyondearth" target="_blank" rel="noreferrer">Instagram</a></li>
+          <li><a href="https://x.com/soundsbearth" target="_blank" rel="noreferrer">X / Twitter</a></li>
+          <li><a href="https://www.linkedin.com/company/sounds-beyond-earth" target="_blank" rel="noreferrer">LinkedIn</a></li>
+        </ul>
+        <p class="bio">
+          Sounds Beyond Earth is an art-tech team building planetary listening experiences for
+          museums, festivals, and public learning spaces, translating scientific signals into
+          embodied, critical listening encounters.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Sounds Beyond Earth</p>
+    </footer>
+
+    <div id="imageModal" class="image-modal" aria-hidden="true" role="dialog" aria-label="Expanded image">
+      <button type="button" id="closeModalBtn" class="modal-close" aria-label="Close expanded image">
+        Close
+      </button>
+      <img id="modalImage" src="" alt="" />
+      <p id="modalCaption"></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>
